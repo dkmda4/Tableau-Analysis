@@ -1,6 +1,7 @@
 # 🌍 Global Population, Environmental Stress, and Resource Risk  
 **Tableau Data Visualisation Project**
 
+
 ## 📌 Project Overview
 This project explores global patterns in population pressure, environmental stress, energy demand, and resource consumption using country-level data sourced from Kaggle. The analysis was built in Tableau to identify regions and countries facing compounded environmental and demographic risk.
 
@@ -11,10 +12,11 @@ The focus is on how population dynamics interact with environmental and resource
 ## 📂 Data Sources
 The analysis uses multiple CSV files sourced from Kaggle, each covering a different dimension of population and environmental risk:
 
-- **global_population_risk.csv** – population pressure, environmental stress, climate vulnerability, economic resilience  
-- **population_growth.csv** – population growth rates and population density  
-- **population_goods_resources.csv** – energy demand, CO₂ emissions, water consumption, resource dependency  
-- **population_ozone_environment.csv** – ozone risk indicators and atmospheric environmental metrics  
+
+- **global_population_risk.csv** – Population pressure, environmental stress, climate vulnerability, economic resilience  
+- **population_growth.csv** – Population growth rates and population density  
+- **population_goods_resources.csv** – Energy demand, CO₂ emissions, water consumption, resource dependency  
+- **population_ozone_environment.csv** – Ozone risk indicators and atmospheric environmental metrics
 
 All datasets are structured at country level and were connected in Tableau using logical relationships.
 
@@ -24,9 +26,9 @@ All datasets are structured at country level and were connected in Tableau using
 The datasets were connected in Tableau using **relationships** based on the `country` field rather than physical joins.
 
 This approach was chosen to:
-- preserve the original structure of each dataset  
-- avoid duplication or inflation of country-level metrics  
-- allow Tableau to dynamically resolve aggregations across multiple domains  
+- Preserve the original structure of each dataset  
+- Avoid duplication or inflation of country-level metrics  
+- Allow Tableau to dynamically resolve aggregations across multiple domains  
 
 This modelling strategy supports cross-country and regional comparison, which is the core focus of the analysis.
 
@@ -41,11 +43,11 @@ This modelling strategy supports cross-country and regional comparison, which is
 ## 🔍 Key Analytical Questions
 This project explores the following questions:
 
-- Which countries face both high population pressure and high environmental stress?  
-- How are energy demand and CO₂ emissions distributed across continents?  
-- Do countries with high energy demand also exhibit high resource dependency?  
-- How does per-capita water consumption differ between high-density and low-density countries?  
-- Are the most environmentally stressed countries also less economically resilient?  
+- Which countries face both high population pressure and high environmental stress?
+- How are energy demand and CO₂ emissions distributed across continents?
+- Do high energy demand countries also exhibit greater resource dependency?
+- How does per-capita water consumption vary with population density?
+- Are the most environmentally stressed countries also less economically resilient?
 
 
 
@@ -112,8 +114,13 @@ Several highly stressed countries also show comparatively lower economic resilie
 ## ⚠️ Limitations
 - This analysis is descriptive rather than causal  
 - Composite indices simplify complex real-world dynamics  
-- Results depend on reporting consistency and data quality across countries  
+- Results depend on reporting consistency and data quality across countries
 
+## 🧾 Conclusion
+
+This analysis reveals that environmental and demographic pressures rarely occur in isolation. Population pressure and environmental stress often align in the same countries, and regions with high energy demand tend to show elevated emissions. Water consumption patterns vary by density, and countries with both high stress and lower resilience may be particularly vulnerable. These insights highlight the value of considering multiple risk indicators together rather than individually.
+
+Future work could expand into temporal trend analysis or incorporate economic and policy variables to better understand drivers behind these patterns.
 
 
 ## 📬 Contact
