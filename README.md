@@ -1,5 +1,5 @@
 # 🌍 Global Population, Environmental Stress, and Resource Risk  
-**Tableau Data Visualisation Project**
+
 
 
 ## 📌 Project Overview
